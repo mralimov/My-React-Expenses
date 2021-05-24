@@ -22,10 +22,15 @@ function App() {
       date: new Date(2021, 5, 12),
     },
   ];
+
+  const addNewExpenseHandler = el => {
+    console.log('I am from APP.JS');
+    console.log(el);
+  };
   return (
     <div>
       <h2>My React Expenses Component!</h2>
-      <NewExpenses />
+      <NewExpenses onNewExpense={addNewExpenseHandler} />
       <Expenses data={expenses} />
     </div>
   );
