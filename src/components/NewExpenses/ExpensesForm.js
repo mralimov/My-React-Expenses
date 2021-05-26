@@ -35,6 +35,7 @@ const ExpenseForm = props => {
         <div className="new-expense__control">
           <label>Title</label>
           <input
+            ref="name"
             type="text"
             value={enteredTitle}
             onChange={titleChangeHandler}
