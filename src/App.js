@@ -32,7 +32,7 @@ function App() {
   };
   return (
     <div>
-      <h2>My React Expenses Component!</h2>
+      <h2 className="head-h2">My React Expenses Component!</h2>
       <NewExpenses onNewExpense={addNewExpenseHandler} />
       <Expenses data={expenses} />
     </div>

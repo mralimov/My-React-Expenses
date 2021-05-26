@@ -13,3 +13,9 @@ body {
   background-color: #252627;
 }
 
+.head-h2 {
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  font-weight: 1100;
+}
